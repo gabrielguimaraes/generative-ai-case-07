@@ -31,11 +31,11 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       - name: Run Tests Explicitly
-        run: mvn test
+        run: ./mvnw test
       - name: Build and run tests
-        run: mvn clean verify
+        run: ./mvnw clean verify
       - name: SonarCloud Analysis
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn sonar:sonar -Dsonar.projectKey=gabrielguimaraes_generative-ai-case-07
+        run: ./mvnw sonar:sonar -Dsonar.projectKey=gabrielguimaraes_generative-ai-case-07
