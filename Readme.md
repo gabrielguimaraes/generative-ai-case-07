@@ -1,8 +1,6 @@
 # Generative AI - Use Case #7
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=gabrielguimaraes_generative-ai-case-07&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=gabrielguimaraes_generative-ai-case-07)
-
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=gabrielguimaraes_generative-ai-case-07&metric=coverage)](https://sonarcloud.io/summary/new_code?id=gabrielguimaraes_generative-ai-case-07)
+![GitHub Actions Status](https://github.com/username/repository/workflows/CI/badge.svg) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=gabrielguimaraes_generative-ai-case-07&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=gabrielguimaraes_generative-ai-case-07) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=gabrielguimaraes_generative-ai-case-07&metric=coverage)](https://sonarcloud.io/summary/new_code?id=gabrielguimaraes_generative-ai-case-07)
 
 ## Introduction
 
