@@ -1,35 +1,33 @@
 package com.gabrielguimaraes.mappers;
 
 import com.gabrielguimaraes.entities.Student;
-
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class StudentConverter {
 
-    public List<Student> convertStudents(List<Student> students) {
+  public List<Student> convertStudents(List<Student> students) {
 
-        return students.stream().map(student ->
-        {
-            Student result = new Student();
+    return students.stream()
+        .map(
+            student -> {
+              Student result = new Student();
 
-            result.setName(student.getName());
-            result.setAge(student.getAge());
-            result.setGrade(student.getGrade());
+              result.setName(student.getName());
+              result.setAge(student.getAge());
+              result.setGrade(student.getGrade());
 
-            if (student.getGrade() > 90) {
+              if (student.getGrade() > 90) {
                 if (student.getAge() < 21) {
-                    result.setExceptional(true);
+                  result.setExceptional(true);
                 } else {
-                    result.setHonorRoll(true);
+                  result.setHonorRoll(true);
                 }
-            } else if (student.getGrade() > 70) {
-                result.setPassed(true);
-            } else {
-                result.setPassed(false);
-            }
-
-            return result;
-        }).collect(Collectors.toList());
-    }
+              } else {
+                boolean passed = student.getGrade() > 70;
+                result.setPassed(passed);
+              }
+              return result;
+            })
+        .toList();
+  }
 }

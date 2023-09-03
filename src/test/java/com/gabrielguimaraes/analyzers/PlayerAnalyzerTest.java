@@ -100,11 +100,10 @@ public class PlayerAnalyzerTest {
       player.setAge(25);
       player.setExperience(5);
       player.setSkills(null);
+      List<Player> players = Collections.singletonList(player);
 
       // When & Then
-      assertThrows(
-          NullPointerException.class,
-          () -> playerAnalyzer.calculateScore(Collections.singletonList(player)));
+      assertThrows(NullPointerException.class, () -> playerAnalyzer.calculateScore(players));
     }
 
     @Test

@@ -4,40 +4,40 @@ import java.util.List;
 
 public class Player {
 
-    public String name;
-    public int age;
-    public int experience;
-    public List<Integer> skills;
+  private String name;
+  private int age;
+  private int experience;
+  private List<Integer> skills;
 
-    public String getName() {
-        return name;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  public void setName(String name) {
+    this.name = name;
+  }
 
-    public int getAge() {
-        return age;
-    }
+  public int getAge() {
+    return age;
+  }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+  public void setAge(int age) {
+    this.age = age;
+  }
 
-    public int getExperience() {
-        return experience;
-    }
+  public int getExperience() {
+    return experience;
+  }
 
-    public void setExperience(int experience) {
-        this.experience = experience;
-    }
+  public void setExperience(int experience) {
+    this.experience = experience;
+  }
 
-    public List<Integer> getSkills() {
-        return skills;
-    }
+  public List<Integer> getSkills() {
+    return skills;
+  }
 
-    public void setSkills(List<Integer> skills) {
-        this.skills = skills;
-    }
+  public void setSkills(List<Integer> skills) {
+    this.skills = skills;
+  }
 }
