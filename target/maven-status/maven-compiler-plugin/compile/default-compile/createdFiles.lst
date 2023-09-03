@@ -1,1 +1,3 @@
 com/gabrielguimaraes/App.class
+com/gabrielguimaraes/mappers/StudentConverter.class
+com/gabrielguimaraes/entities/Student.class

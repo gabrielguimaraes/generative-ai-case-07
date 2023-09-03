@@ -1,4 +1,4 @@
-# Your Java Project Title
+# Generative AI - CASE #07
 
 This project contains a set of unit tests written in Java using JUnit 5. The project uses Maven for dependency management and build automation.
 
