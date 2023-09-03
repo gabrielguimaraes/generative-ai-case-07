@@ -1,5 +1,9 @@
 # Generative AI - Use Case #7
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=gabrielguimaraes_generative-ai-case-07&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=gabrielguimaraes_generative-ai-case-07)
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=gabrielguimaraes_generative-ai-case-07&metric=coverage)](https://sonarcloud.io/summary/new_code?id=gabrielguimaraes_generative-ai-case-07)
+
 ## Introduction
 
 The "Generative AI - Use Case #7" project aims to significantly boost the quality and safety of Java applications by implementing a rigorous unit testing framework. Built on JUnit 5, our extensive unit tests cover individual methods and functions for entities like `Student` and `Player`, making sure the code is resilient and reliable.
